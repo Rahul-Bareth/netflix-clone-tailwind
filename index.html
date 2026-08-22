@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,116 +10,157 @@
 </head>
 
 <body>
-<!--Hero-section-start-->
- <section class="relative w-full min-h-screen bg-[url('./images/background.jpg')] bg-center bg-cover">
+  <!--Hero-section-start-->
+  <section class="relative w-full min-h-screen bg-[url('./images/background.jpg')] bg-center bg-cover">
 
-  <div class="absolute inset-0 bg-[rgba(0,0,0,0.5)]"></div>
+    <div class="absolute inset-0 bg-[rgba(0,0,0,0.5)]"></div>
 
-  <header class="relative z-10 max-w-292 mx-auto">
-    <div class="grid sm:grid-cols-2 grid-cols-[30%_auto] items-center px-12 py-10">
+    <header class="relative z-10 max-w-292 mx-auto">
+      <div class="grid sm:grid-cols-2 grid-cols-[30%_auto] items-center px-12 py-10">
 
-      <figure>
-        <img class="w-40" src="./images/logo.svg" alt="Netflix">
-      </figure>
+        <figure>
+          <img class="w-40" src="./images/logo.svg" alt="Netflix">
+        </figure>
 
-      <div class="flex justify-end gap-[10px]">
-        <div class="relative">
-          <i class="fa-solid fa-globe absolute top-[10px] left-[5px] text-white"></i>
+        <div class="flex justify-end gap-[10px]">
+          <div class="relative">
+            <i class="fa-solid fa-globe absolute top-[10px] left-[5px] text-white"></i>
 
-          <select class="bg-black text-white font-bold border border-white p-[5px_20px] rounded-[5px]">
-            <option>English</option>
-            <option>Hindi</option>
-          </select>
+            <select class="bg-black text-white font-bold border border-white p-[5px_20px] rounded-[5px]">
+              <option>English</option>
+              <option>Hindi</option>
+            </select>
+          </div>
+
+          <button class="bg-red-600 text-white font-bold p-[5px_12px] rounded-[5px]">
+            Sign In
+          </button>
         </div>
 
-        <button class="bg-red-600 text-white font-bold p-[5px_12px] rounded-[5px]">
-          Sign In
-        </button>
       </div>
+    </header>
 
-    </div>
-  </header>
+    <div class="relative z-10 max-w-292 mx-auto px-6 pt-[120px] text-center">
 
-  <div class="relative z-10 max-w-292 mx-auto px-6 pt-[120px] text-center">
+      <div>
+        <h1 class="text-white sm:text-[50px] text-[30px] font-bold">
+          Unlimited movies, shows, and more
+        </h1>
 
-    <div>
-      <h1 class="text-white sm:text-[50px] text-[30px] font-bold">
-        Unlimited movies, shows, and more
-      </h1>
+        <h4 class="text-white text-[22px] py-3 font-bold">
+          Plans start at ₹149. Cancel anytime.
+        </h4>
 
-      <h4 class="text-white text-[22px] py-3 font-bold">
-        Plans start at ₹149. Cancel anytime.
-      </h4>
+        <p class="text-white text-[19px]">
+          Ready to watch? Enter your email to start your membership.
+        </p>
 
-      <p class="text-white text-[19px]">
-        Ready to watch? Enter your email to start your membership.
-      </p>
-
-      <div class="max-w-[700px] mx-auto mt-[20px]">
-        <form class="grid gap-3 sm:grid-cols-[60%_auto] grid-cols-1 text-white">
-          <input
-            type="text"
-            placeholder="Email Address"
-            class="h-[46px] border border-gray-200 bg-transparent px-4">
-          <button class="h-[46px] bg-red-600 px-6 font-bold rounded-[5px] hover:bg-[rgb(193,17,25)] duration-300 cursor-pointer text-[22px] ">Get Started ></button>
-        </form>
-      </div>
-    </div>
-
-  </div>
-
-</section>
-<!--Hero-section-end-->
-
-<!--Enjoy-section-start-->
- <section class="w-[100%] mx-auto bg-black border-t-[8px] border-t-[#605d5d] sm:py-[60px] py-[50px]">
-  <div class="max-w-292 mx-auto px-4">
-    <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
-      <div class="text-white text-center">
-        <h2 class="sm:text-[50px] text-[40px] font-bold">Enjoy on your TV</h2>
-        <p class="sm:text-[23px] text-[20px] pt-4 text-gray-300">Watch on smart TVs, PlayStation, Xbox, Chromecast,<br> Apple TV, Blu-ray players and more.</p>
-      </div>
-      <figure class="relative">
-        <video class="absolute w-[80%] left-[12%] bottom-[20%] z-1"  
-          autoplay
-          muted
-          loop
-          playsinline>
-          <source  src="videos/video-tv-in-0819.m4v" type="video/mp4">>
-        </video>
-        <img class="relative z-2" src="images/tv.png">
-      </figure>
-    </div>
-  </div>
- </section>
-<!--Enjoy-section-end-->
-
-<!--Download-Section-Start-->
- <section class="w-[100%] mx-auto bg-black border-t-[8px] border-t-[#605d5d] sm:py-[70px] py-[50px]">
-  <div class="max-w-292 mx-auto px-4">
-    <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
-      <figure class="relative sm:order-1 order-2">
-       <img src="images/mobile-0819.jpg">
-       <div class="absolute sm-w-[60%] sm:left-[20%] w-[60%] left-[20%] border border-gray-300 bottom-0 grid grid-cols-[70%_auto] bg-black items-center rounded-sm">
-        <div class="grid grid-cols-[30%_auto] gap-[10px] items-center">
-         <img src="images/strangers.jpg" class="p-[10px]">
-         <div>
-          <h3 class="text-white font-bold">Strangers Things</h3>
-          <span class="text-blue-700">Downloading...></span> 
-         </div>
+        <div class="max-w-[700px] mx-auto mt-[20px]">
+          <form class="grid gap-3 sm:grid-cols-[60%_auto] grid-cols-1 text-white">
+            <input type="text" placeholder="Email Address" class="h-[46px] border border-gray-200 bg-transparent px-4">
+            <button
+              class="h-[46px] bg-red-600 px-6 font-bold rounded-[5px] hover:bg-[rgb(193,17,25)] duration-300 cursor-pointer text-[22px] ">Get
+              Started ></button>
+          </form>
         </div>
-        <div>
-          <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif" alt="Download Icon" />
+      </div>
+
+    </div>
+
+  </section>
+  <!--Hero-section-end-->
+
+  <!--Enjoy-section-start-->
+  <section class="w-[100%] mx-auto bg-black border-t-[8px] border-t-[#605d5d] sm:py-[60px] py-[50px]">
+    <div class="max-w-292 mx-auto px-4">
+      <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+        <div class="text-white text-center">
+          <h2 class="sm:text-[50px] text-[40px] font-bold">Enjoy on your TV</h2>
+          <p class="sm:text-[23px] text-[20px] pt-4 text-gray-300">Watch on smart TVs, PlayStation, Xbox,
+            Chromecast,<br> Apple TV, Blu-ray players and more.</p>
         </div>
-       </div>
-      </figure>
-      <div class="text-white text-center sm:order-1 order-1">
-        <h2 class="sm:text-[50px] text-[40px] sm:leading-[70px] leading-[50px] font-bold">Download your shows to watch offline</h2>
-        <p class="sm:text-[23px] text-[20px] pt-4 text-gray-300">Save your favourites easily and always have something to watch.</p>
+        <figure class="relative">
+          <video class="absolute w-[80%] left-[12%] bottom-[20%] z-1" autoplay muted loop playsinline>
+            <source src="videos/video-tv-in-0819.m4v" type="video/mp4">>
+          </video>
+          <img class="relative z-2" src="images/tv.png">
+        </figure>
       </div>
     </div>
-  </div>
- </section>
-<!--Download-Section-End-->
+  </section>
+  <!--Enjoy-section-end-->
+
+  <!--Download-Section-Start-->
+  <section class="w-[100%] mx-auto bg-black border-t-[8px] border-t-[#605d5d] sm:py-[70px] py-[50px]">
+    <div class="max-w-292 mx-auto px-4">
+      <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+        <figure class="relative sm:order-1 order-2">
+          <img src="images/mobile-0819.jpg">
+          <div
+            class="absolute sm-w-[60%] sm:left-[20%] w-[60%] left-[20%] border border-gray-300 bottom-0 grid grid-cols-[70%_auto] bg-black items-center rounded-xl">
+            <div class="grid grid-cols-[30%_auto] gap-[10px] items-center">
+              <img src="images/strangers.jpg" class="p-[10px]">
+              <div>
+                <h3 class="text-white font-bold text-[14px]">Strangers Things</h3>
+                <span class="text-blue-700">Downloading...></span>
+              </div>
+            </div>
+            <div>
+              <img class="rounded-3xl"
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif"
+                alt="Download Icon" />
+            </div>
+          </div>
+        </figure>
+        <div class="text-white text-center sm:order-1 order-1">
+          <h2 class="sm:text-[50px] text-[40px] sm:leading-[70px] leading-[50px] font-bold">Download your shows to watch
+            offline</h2>
+          <p class="sm:text-[23px] text-[20px] pt-4 text-gray-300">Save your favourites easily and always have something
+            to watch.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Download-Section-End-->
+
+  <!--Watch-Anywhere-Section-->
+  <section class="w-[100%] mx-auto bg-black border-t-[8px] border-t-[#605d5d] sm:py-[60px] py-[50px]">
+    <div class="max-w-292 mx-auto px-4">
+      <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+        <div class="text-white text-center">
+          <h2 class="sm:text-[50px] text-[40px] font-bold">Watch everywhere</h2>
+          <p class="sm:text-[23px] text-[20px] pt-4 text-gray-300">Stream unlimited movies and TV shows on your phone,
+            tablet, laptop, and TV.</p>
+        </div>
+        <figure class="relative">
+          <video class="absolute w-[60%] left-[18%] bottom-[40%] z-1" autoplay muted loop playsinline>
+            <source src="videos/Video 53_assets_videos_video1.m4v" type="video/mp4">>
+          </video>
+          <img class="relative z-2" src="images/apple.pc-removebg-preview.png">
+        </figure>
+      </div>
+    </div>
+  </section>
+  <!--Watch-Anywhere-Section-End-->
+   
+  <!--Kids-Section-Start-->
+    <section class="w-[100%] mx-auto bg-black border-t-[8px] border-t-[#605d5d] sm:py-[80px] py-[50px]">
+    <div class="max-w-292 mx-auto px-4">
+      <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+        <figure class="relative sm:order-1 order-2">
+          <img src="images/kids.png">
+        </figure>
+        <div class="text-white text-center sm:order-1 order-1">
+          <h2 class="sm:text-[50px] text-[40px] sm:leading-[70px] leading-[50px] font-bold">
+          Create profiles for kids</h2>
+          <p class="sm:text-[23px] text-[20px] pt-4 text-gray-300">
+            Send kids on adventures with their favourite characters in a space made just for them — free with your membership.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Kids-Section-End-->
 </body>
+
 </html>
