@@ -71,18 +71,22 @@
 <!--Hero-section-end-->
 
 <!--Enjoy-section-start-->
- <section class="w-[100%] mx-auto bg-black border-t-[8px] border-t-[#605d5d] sm:py-[100px] py-[50px]">
+ <section class="w-[100%] mx-auto bg-black border-t-[8px] border-t-[#605d5d] sm:py-[60px] py-[50px]">
   <div class="max-w-292 mx-auto px-4">
     <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
-      <div class="text-white">
+      <div class="text-white text-center">
         <h2 class="sm:text-[50px] text-[40px] font-bold">Enjoy on your TV</h2>
         <p class="sm:text-[23px] text-[20px] pt-4 text-gray-300">Watch on smart TVs, PlayStation, Xbox, Chromecast,<br> Apple TV, Blu-ray players and more.</p>
       </div>
-      <figure>
-        <video>
-          <source src="videos/video-tv-in-0819.m4v">
+      <figure class="relative">
+        <video class="absolute w-[80%] left-[12%] bottom-[20%] z-1"  
+          autoplay
+          muted
+          loop
+          playsinline>
+          <source  src="videos/video-tv-in-0819.m4v" type="video/mp4">>
         </video>
-        <img src="images/tv.png">
+        <img class="relative z-2" src="images/tv.png">
       </figure>
     </div>
   </div>
