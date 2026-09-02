@@ -5,14 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Netflix Clone | Tailwind CSS</title>
-  <link rel="icon" type="image/svg+xml" href="./images/favicon.ico">
+
+  <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
- <link
+
+  <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
+
   <!--Hero-section-start-->
   <section
     class="relative w-full min-h-[50vh] sm:min-h-screen pb-[100px] bg-[url('./images/background.jpg')] bg-center bg-cover">
@@ -25,13 +29,14 @@
         <figure>
           <img class="w-36" src="./images/logo.svg" alt="Netflix">
         </figure>
-       
+
         <div class="flex justify-end gap-[10px]">
+
           <div class="relative">
             <i class="fa-solid fa-globe absolute top-[10px] left-[5px] text-white"></i>
 
             <select
-              class=" bg-black text-white font-bold border pr-2 border-white p-[3px_20px] rounded-[5px] cursor-pointer">
+              class="bg-black text-white font-bold border pr-2 border-white p-[3px_20px] rounded-[5px] cursor-pointer">
               <option>English</option>
               <option>Hindi</option>
             </select>
@@ -41,6 +46,7 @@
             class="bg-[#E50914] hover:bg-[#B20710] duration-300 cursor-pointer text-white font-bold p-[3px_12px] rounded-[5px]">
             Sign In
           </button>
+
         </div>
 
       </div>
@@ -49,6 +55,7 @@
     <div class="relative z-10 max-w-292 mx-auto px-6 pt-[80px] text-center">
 
       <div>
+
         <h1 class="text-white text-[40px] sm:text-[55px] lg:text-[64px] leading-tight font-bold">
           <span class="text-[#E50914]">Unlimited</span> movies,<br> shows, and more
         </h1>
@@ -62,14 +69,23 @@
         </p>
 
         <div class="max-w-[700px] mx-auto mt-[20px]">
+
           <form class="grid gap-3 sm:grid-cols-[60%_auto] grid-cols-1 text-white">
-            <input type="text" placeholder="Email Address" class="h-[56px] border border-gray-200 bg-transparent px-4 sm:rounded-[5px] rounded-xl">
+
+            <input
+              type="text"
+              placeholder="Email Address"
+              class="h-[56px] border border-gray-200 bg-transparent px-4 sm:rounded-[5px] rounded-xl">
+
             <button
-              class="h-[56px] bg-red-600 px-6 font-bold sm:rounded-[5px] rounded-xl
-               hover:bg-[rgb(193,17,25)] duration-300 cursor-pointer text-[22px] ">Get
-              Started ></button>
+              class="h-[56px] bg-red-600 px-6 font-bold sm:rounded-[5px] rounded-xl hover:bg-[rgb(193,17,25)] duration-300 cursor-pointer text-[22px]">
+              Get Started >
+            </button>
+
           </form>
+
         </div>
+
       </div>
 
     </div>
@@ -77,217 +93,485 @@
   </section>
   <!--Hero-section-end-->
 
+
   <!--Enjoy-section-start-->
-  <section class="w-[100%] mx-auto bg-black border-t-[8px] border-t-[#605d5d] sm:py-[60px] py-[50px]">
+  <section class="w-full mx-auto bg-black border-t-[8px] border-t-[#605d5d] sm:py-[60px] py-[50px]">
+
     <div class="max-w-292 mx-auto px-4">
+
       <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+
         <div class="text-white text-center">
-          <h2 class="sm:text-[50px] text-[40px] font-bold">Enjoy on your TV</h2>
-          <p class="sm:text-[23px] text-[20px] pt-4 text-gray-300">Watch on smart TVs, PlayStation, Xbox,
-            Chromecast,<br> Apple TV, Blu-ray players and more.</p>
+
+          <h2 class="sm:text-[50px] text-[40px] font-bold">
+            Enjoy on your TV
+          </h2>
+
+          <p class="sm:text-[23px] text-[20px] pt-4 text-gray-300">
+            Watch on smart TVs, PlayStation, Xbox, Chromecast,<br>
+            Apple TV, Blu-ray players and more.
+          </p>
+
         </div>
+
         <figure class="relative">
-          <video class="absolute w-[80%] left-[12%] bottom-[20%] z-1" autoplay muted loop playsinline>
-            <source src="videos/video-tv.mp4" type="video/mp4">
+
+          <video
+            class="absolute w-[80%] left-[12%] bottom-[20%] z-10"
+            autoplay
+            muted
+            loop
+            playsinline>
+
+            <source src="/videos/video-tv.mp4" type="video/mp4">
+
           </video>
-          <img class="relative z-2" src="images/tv.png">
+
+          <img
+            class="relative z-20"
+            src="/images/tv.png"
+            alt="TV">
+
         </figure>
+
       </div>
+
     </div>
+
   </section>
   <!--Enjoy-section-end-->
 
+
   <!--Download-Section-Start-->
-  <section class="w-[100%] mx-auto bg-black border-t-[8px] border-t-[#605d5d] sm:py-[70px] py-[50px]">
+  <section class="w-full mx-auto bg-black border-t-[8px] border-t-[#605d5d] sm:py-[70px] py-[50px]">
+
     <div class="max-w-292 mx-auto px-4">
+
       <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+
         <figure class="relative sm:order-1 order-2">
-          <img src="images/mobile-0819.jpg">
+
+          <img
+            src="/images/mobile-0819.jpg"
+            alt="Mobile">
+
           <div
             class="absolute sm:w-[60%] sm:left-[20%] w-[60%] left-[20%] border border-gray-300 bottom-0 grid grid-cols-[70%_auto] bg-black items-center rounded-xl">
+
             <div class="grid grid-cols-[30%_auto] gap-[10px] items-center">
-              <img src="images/strangers.jpg" class="p-[10px]">
+
+              <img
+                src="/images/strangers.jpg"
+                class="p-[10px]"
+                alt="Stranger Things">
+
               <div>
-                <h3 class="text-[#ccc] font-bold text-[14px]">Stranger Things</h3>
-                <span class="text-blue-700">Downloading...></span>
+
+                <h3 class="text-[#ccc] font-bold text-[14px]">
+                  Stranger Things
+                </h3>
+
+                <span class="text-blue-700">
+                  Downloading...
+                </span>
+
               </div>
+
             </div>
+
             <div>
-              <img class="rounded-3xl"
+
+              <img
+                class="rounded-3xl"
                 src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif"
-                alt="Download Icon" />
+                alt="Download Icon">
+
             </div>
+
           </div>
+
         </figure>
+
         <div class="text-white text-center sm:order-1 order-1">
-          <h2 class="sm:text-[50px] text-[40px] sm:leading-[70px] leading-[50px] font-bold">Download your shows to watch
-            offline</h2>
-          <p class="sm:text-[23px] text-[20px] pt-4 text-[#f0e6e6]">Save your favourites easily and always have something
-            to watch.</p>
+
+          <h2 class="sm:text-[50px] text-[40px] sm:leading-[70px] leading-[50px] font-bold">
+            Download your shows to watch offline
+          </h2>
+
+          <p class="sm:text-[23px] text-[20px] pt-4 text-[#f0e6e6]">
+            Save your favourites easily and always have something to watch.
+          </p>
+
         </div>
+
       </div>
+
     </div>
+
   </section>
   <!--Download-Section-End-->
 
+
   <!--Watch-Anywhere-Section-->
-  <section class="w-[100%] mx-auto bg-black border-t-[8px] border-t-[#605d5d] sm:py-[60px] py-[50px]">
+  <section class="w-full mx-auto bg-black border-t-[8px] border-t-[#605d5d] sm:py-[60px] py-[50px]">
+
     <div class="max-w-292 mx-auto px-4">
+
       <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+
         <div class="text-white text-center">
-          <h2 class="sm:text-[50px] text-[40px] font-bold">Watch everywhere</h2>
-          <p class="sm:text-[23px] text-[20px] pt-4 text-[#f0e6e6]">Stream unlimited movies and TV shows on your phone,
-            tablet, laptop, and TV.</p>
+
+          <h2 class="sm:text-[50px] text-[40px] font-bold">
+            Watch everywhere
+          </h2>
+
+          <p class="sm:text-[23px] text-[20px] pt-4 text-[#f0e6e6]">
+            Stream unlimited movies and TV shows on your phone,
+            tablet, laptop, and TV.
+          </p>
+
         </div>
+
         <figure class="relative">
-          <video class="absolute w-[60%] left-[18%] bottom-[40%] z-1" autoplay muted loop playsinline>
-            <source src="videos/video-everywhere.mp4" type="video/mp4">
+
+          <video
+            class="absolute w-[60%] left-[18%] bottom-[40%] z-10"
+            autoplay
+            muted
+            loop
+            playsinline>
+
+            <source src="/videos/video-everywhere.mp4" type="video/mp4">
+
           </video>
-          <img class="relative z-2" src="images/apple.pc-removebg-preview.png">
+
+          <img
+            class="relative z-20"
+            src="/images/apple.pc-removebg-preview.png"
+            alt="Computer">
+
         </figure>
+
       </div>
+
     </div>
+
   </section>
   <!--Watch-Anywhere-Section-End-->
 
+
   <!--Kids-Section-Start-->
-  <section class="w-[100%] mx-auto bg-black border-t-[8px] border-t-[#605d5d] sm:py-[80px] py-[50px]">
+  <section class="w-full mx-auto bg-black border-t-[8px] border-t-[#605d5d] sm:py-[80px] py-[50px]">
+
     <div class="max-w-292 mx-auto px-4">
+
       <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+
         <figure class="relative sm:order-1 order-2">
-          <img src="images/kids.png">
+
+          <img
+            src="/images/kids.png"
+            alt="Kids">
+
         </figure>
+
         <div class="text-white text-center sm:order-1 order-1">
+
           <h2 class="sm:text-[50px] text-[40px] sm:leading-[70px] leading-[50px] font-bold">
-            Create profiles for kids</h2>
+            Create profiles for kids
+          </h2>
+
           <p class="sm:text-[23px] text-[20px] pt-4 text-[#f0e6e6]">
             Send kids on adventures with their favourite characters in a space made just for them — free with your
             membership.
           </p>
+
         </div>
+
       </div>
+
     </div>
+
   </section>
   <!--Kids-Section-End-->
 
+
   <!--FAQ-Section-Start-->
-  <section class="w-[100%] mx-auto bg-black border-t-[8px] border-t-[#605d5d] sm:py-[80px] py-[50px]">
+  <section class="w-full mx-auto bg-black border-t-[8px] border-t-[#605d5d] sm:py-[80px] py-[50px]">
+
     <div class="max-w-292 mx-auto px-4">
-      <h2 class="sm:text-[50px] text-[30px] font-bold text-white text-center">Frequently Asked Questions</h2>
+
+      <h2 class="sm:text-[50px] text-[30px] font-bold text-white text-center">
+        Frequently Asked Questions
+      </h2>
+
       <div class="py-[35px] grid grid-cols-1 gap-[10px]">
+
         <div class="bg-[#2d2d2d]">
           <div
             class="p-[25px] text-white sm:text-[30px] text-[23px] relative hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer">
-            <h3>What is Netflix?</h3><span class="absolute top-[10px] right-[20px] text-[40px]">+</span>
+
+            <h3>What is Netflix?</h3>
+
+            <span class="absolute top-[10px] right-[20px] text-[40px]">
+              +
+            </span>
+
           </div>
         </div>
+
+
         <div class="bg-[#2d2d2d]">
           <div
             class="p-[25px] text-white sm:text-[30px] text-[23px] relative hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer">
-            <h3>How much does Netflix cost?</h3><span class="absolute top-[10px] right-[20px] text-[40px]">+</span>
+
+            <h3>How much does Netflix cost?</h3>
+
+            <span class="absolute top-[10px] right-[20px] text-[40px]">
+              +
+            </span>
+
           </div>
         </div>
+
+
         <div class="bg-[#2d2d2d]">
           <div
             class="p-[25px] text-white sm:text-[30px] text-[23px] relative hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer">
-            <h3>What can I watch on Netflix?</h3><span class="absolute top-[10px] right-[20px] text-[40px]">+</span>
+
+            <h3>What can I watch on Netflix?</h3>
+
+            <span class="absolute top-[10px] right-[20px] text-[40px]">
+              +
+            </span>
+
           </div>
         </div>
+
+
         <div class="bg-[#2d2d2d]">
           <div
             class="p-[25px] text-white sm:text-[30px] text-[23px] relative hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer">
-            <h3>Where can I watch?</h3><span class="absolute top-[10px] right-[20px] text-[40px]">+</span>
+
+            <h3>Where can I watch?</h3>
+
+            <span class="absolute top-[10px] right-[20px] text-[40px]">
+              +
+            </span>
+
           </div>
         </div>
+
+
         <div class="bg-[#2d2d2d]">
           <div
             class="p-[25px] text-white sm:text-[30px] text-[23px] relative hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer">
-            <h3>How do I cancel?</h3><span class="absolute top-[10px] right-[20px] text-[40px]">+</span>
+
+            <h3>How do I cancel?</h3>
+
+            <span class="absolute top-[10px] right-[20px] text-[40px]">
+              +
+            </span>
+
           </div>
         </div>
+
+
         <div class="bg-[#2d2d2d]">
           <div
             class="p-[25px] text-white sm:text-[30px] text-[23px] relative hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer">
-            <h3>Is Netflix good for kids?</h3><span class="absolute top-[10px] right-[20px] text-[40px]">+</span>
+
+            <h3>Is Netflix good for kids?</h3>
+
+            <span class="absolute top-[10px] right-[20px] text-[40px]">
+              +
+            </span>
+
           </div>
         </div>
+
       </div>
+
+
       <p class="text-white text-[21px] text-center">
         Ready to watch? Enter your email to start your membership.
       </p>
 
+
       <div class="max-w-[700px] mx-auto mt-[20px]">
+
         <form class="grid gap-3 sm:grid-cols-[60%_auto] grid-cols-1 text-white">
-          <input type="text" placeholder="Email Address" class="h-[56px] border border-gray-200 bg-transparent px-4">
+
+          <input
+            type="text"
+            placeholder="Email Address"
+            class="h-[56px] border border-gray-200 bg-transparent px-4">
+
           <button
-            class="h-[56px] bg-red-600 px-6 font-bold rounded-[5px] hover:bg-[rgb(193,17,25)] duration-300 cursor-pointer text-[22px] ">Get
-            Started ></button>
+            class="h-[56px] bg-red-600 px-6 font-bold rounded-[5px] hover:bg-[rgb(193,17,25)] duration-300 cursor-pointer text-[22px]">
+            Get Started >
+          </button>
+
         </form>
+
       </div>
+
     </div>
+
   </section>
   <!--FAQ-Section-End-->
 
+
   <!--Footer-Section_Start-->
-  <footer class="w-[100%] mx-auto bg-black border-t-[8px] border-t-[#605d5d] sm:py-[60px] py-[50px]">
+  <footer class="w-full mx-auto bg-black border-t-[8px] border-t-[#605d5d] sm:py-[60px] py-[50px]">
+
     <div class="max-w-292 mx-auto px-4">
-      <h3 class="text-[#ccc] text-[20px] underline">Questions? Call
+
+      <h3 class="text-[#ccc] text-[20px] underline">
+        Questions? Call
+
         <a href="tel:000-800-919-1743" class="underline">
           000-800-919-1743
         </a>
+
       </h3>
+
+
       <div class="py-[25px] grid sm:grid-cols-4 grid-cols-1">
-        <div>
-          <ul class="text-[#ccc]">
-            <li class="mb-[10px]"><a class="underline" href="#">Faq</a></li>
-            <li class="mb-[10px]"><a class="underline" href="#">Investor Relations</a></li>
-            <li class="mb-[10px]"><a class="underline" href="#">Privacy</a></li>
-            <li class="mb-[10px]"><a class="underline" href="#">Speed Test</a></li>
-          </ul>
-        </div>
 
         <div>
+
           <ul class="text-[#ccc]">
-            <li class="mb-[10px]"><a class="underline" href="#">Jobs</a></li>
-            <li class="mb-[10px]"><a class="underline" href="#">Cookie Preferences</a></li>
-            <li class="mb-[10px]"><a class="underline" href="#">Legal Notices</a></li>
-            <li class="mb-[10px]"><a class="underline" href="#">Help Center</a></li>
+
+            <li class="mb-[10px]">
+              <a class="underline" href="#">Faq</a>
+            </li>
+
+            <li class="mb-[10px]">
+              <a class="underline" href="#">Investor Relations</a>
+            </li>
+
+            <li class="mb-[10px]">
+              <a class="underline" href="#">Privacy</a>
+            </li>
+
+            <li class="mb-[10px]">
+              <a class="underline" href="#">Speed Test</a>
+            </li>
+
           </ul>
+
         </div>
 
-        <div>
-          <ul class="text-[#ccc]">
-            <li class="mb-[10px]"><a class="underline" href="#">Account</a></li>
-            <li class="mb-[10px]"><a class="underline" href="#">Ways to Watch</a></li>
-            <li class="mb-[10px]"><a class="underline" href="#">Corporate Information</a></li>
-            <li class="mb-[10px]"><a class="underline" href="#">Only on Netflix</a></li>
-          </ul>
-        </div>
 
         <div>
+
           <ul class="text-[#ccc]">
-            <li class="mb-[10px]"><a class="underline" href="#">Media Centre</a></li>
-            <li class="mb-[10px]"><a class="underline" href="#">Terms of Use</a></li>
-            <li class="mb-[10px]"><a class="underline" href="#">Contact Us</a></li>
-            <li class="mb-[10px]"><a class="underline" href="#">Languages</a></li>
+
+            <li class="mb-[10px]">
+              <a class="underline" href="#">Jobs</a>
+            </li>
+
+            <li class="mb-[10px]">
+              <a class="underline" href="#">Cookie Preferences</a>
+            </li>
+
+            <li class="mb-[10px]">
+              <a class="underline" href="#">Legal Notices</a>
+            </li>
+
+            <li class="mb-[10px]">
+              <a class="underline" href="#">Help Center</a>
+            </li>
+
           </ul>
+
         </div>
+
+
+        <div>
+
+          <ul class="text-[#ccc]">
+
+            <li class="mb-[10px]">
+              <a class="underline" href="#">Account</a>
+            </li>
+
+            <li class="mb-[10px]">
+              <a class="underline" href="#">Ways to Watch</a>
+            </li>
+
+            <li class="mb-[10px]">
+              <a class="underline" href="#">Corporate Information</a>
+            </li>
+
+            <li class="mb-[10px]">
+              <a class="underline" href="#">Only on Netflix</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <div>
+
+          <ul class="text-[#ccc]">
+
+            <li class="mb-[10px]">
+              <a class="underline" href="#">Media Centre</a>
+            </li>
+
+            <li class="mb-[10px]">
+              <a class="underline" href="#">Terms of Use</a>
+            </li>
+
+            <li class="mb-[10px]">
+              <a class="underline" href="#">Contact Us</a>
+            </li>
+
+            <li class="mb-[10px]">
+              <a class="underline" href="#">Languages</a>
+            </li>
+
+          </ul>
+
+        </div>
+
       </div>
+
+
       <div>
+
         <div class="flex justify-start gap-[10px]">
+
           <div class="relative">
+
             <i class="fa-solid fa-globe absolute top-[10px] left-[5px] text-[#ccc]"></i>
 
-            <select class="bg-black text-[#ccc] font-bold border border-[#ccc] p-[5px_20px] rounded-[5px]">
+            <select
+              class="bg-black text-[#ccc] font-bold border border-[#ccc] p-[5px_20px] rounded-[5px]">
+
               <option>English</option>
               <option>Hindi</option>
+
             </select>
+
           </div>
+
         </div>
-        <h3 class="text-white mt-[15px]">Netflix India</h3>
+
+        <h3 class="text-white mt-[15px]">
+          Netflix India
+        </h3>
+
       </div>
+
+    </div>
+
   </footer>
   <!--Footer-Section_End-->
+
 </body>
 
 </html>
